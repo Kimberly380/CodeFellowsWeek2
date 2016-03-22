@@ -21,16 +21,16 @@ it('should be 16, 140, the sum and products of 4, 7, and 5.', function() { asser
 
 //Problem Four. Sum single parameter Array.
 it('should be 9, the sum of the array 2,3 and 4.', function() {
-  var myArray = [2,3,4];
-  assert.deepEqual(compute.sumArray(myArray),9);
+  // var myArr = [2,3,4];
+  assert.deepEqual(compute.sumArray([2,3,4]),9);
 
 });
 
 
 //Problem Five.  Multiply single parameter array.
 it('should be 24, the product of the array 2,3 and 4.', function() {
-  var myArray2 = [2,3,4];
-  assert.deepEqual(compute.MultArray(myArray2),24);
+  // var myArray2 = [2,3,4];
+  assert.deepEqual(compute.multArray([2,3,4]),24);
 
 });
 
