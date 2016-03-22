@@ -41,8 +41,28 @@ function sumArray(myArray) {
   for (var i=0; i<myArray.length; i++){
       var sumResults = 0;
       sumResults += myArray[i];
+
+      console.log(myArray[0]+", "+myArray[1]+ ", " + myArray[2] + " was passed in as an array of numbers, and " + sumResults + " is their sum.");
+
       return sumResults;
       }
   }
 
 exports.sumArray = sumArray;
+
+
+//function for multiplying three numbers in an array.  Problem Five.
+
+function multArray(myArray2) {
+
+  for (var i=0; i<myArray2.length; i++) {
+
+    var multResults = 0;
+    multResults *= myArray2[i];
+
+    console.log("the numbers "+ myArray2[0] + ", " + myArray2[1] +", "+myArray[3] + " have a product of " + multResults);
+
+    return multResults;
+    }
+  }
+  exports.multArray = multArray;

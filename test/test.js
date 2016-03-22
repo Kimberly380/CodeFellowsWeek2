@@ -28,7 +28,11 @@ it('should be 9, the sum of the array 2,3 and 4.', function() {
 
 
 //Problem Five.  Multiply single parameter array.
+it('should be 24, the product of the array 2,3 and 4.', function() {
+  var myArray2 = [2,3,4];
+  assert.deepEqual(compute.MultArray(myArray2),24);
 
+});
 
 
  });
