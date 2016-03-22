@@ -1,6 +1,7 @@
 
 var exports = {}; //dummy declaraion to let this file co-exist with test.js.
 
+//I like the way you have each problem separate - makes it easy to read YVONNE
 
 //problem 1 output
 var pProblemOneQ  = document.getElementById('Problem One Q');
