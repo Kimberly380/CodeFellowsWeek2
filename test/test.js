@@ -7,26 +7,27 @@ describe('My first test', function() {
   // });
 
 
-
 //Problem One
   it('should be 11, the sum of 7 and 4.', function() { assert(11 == compute.sumTwo(7,4)); });
-
 
 
 //Problem Two.  Multiply.
 it('should be 28, the product of 7 and 4.', function() { assert(28 == compute.multTwo(7,4)); });
 
 
-
 //Problem Three. Sum and Multiply.
 it('should be 16, 140, the sum and products of 4, 7, and 5.', function() { assert(15,140 == compute.sumAndMult(4,7,5)); });
 
 
-
-//Problem Four. Sum and Multiply.
+//Problem Four. Sum single parameter Array.
 it('should be 9, the sum of the array 2,3 and 4.', function() {
   var myArray = [2,3,4];
-  assert.deepEqual(compute.sumArray(myArray)); });
+  assert.deepEqual(compute.sumArray(myArray),9);
+
+});
+
+
+//Problem Five.  Multiply single parameter array.
 
 
 

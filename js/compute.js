@@ -19,7 +19,6 @@ function multTwo (a, b) {
 exports.multTwo = multTwo;
 
 
-
 //function for summing and multiplying three numbers: Problem Three
 
 function sumAndMult (a, b, c) {
@@ -35,15 +34,14 @@ function sumAndMult (a, b, c) {
 exports.sumAndMult = sumAndMult;
 
 
-
 //function for adding three items in an array. Problem Four.
 
 function sumArray(myArray) {
 
-
-  for (i=0; i<myArray.lenght; i++){
+  for (var i=0; i<myArray.length; i++){
       var sumResults = 0;
       sumResults += myArray[i];
+      return sumResults;
       }
   }
 
