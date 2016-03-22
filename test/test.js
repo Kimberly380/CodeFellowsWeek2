@@ -23,5 +23,11 @@ it('should be 16, 140, the sum and products of 4, 7, and 5.', function() { asser
 
 
 
+//Problem Four. Sum and Multiply.
+it('should be 9, the sum of the array 2,3 and 4.', function() { assert(9 == compute.sumArray([2,3,4])); });
+
+
+
+
 
  });
