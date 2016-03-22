@@ -1,3 +1,5 @@
+
+var exports = {}; //dummy declaraion to let this file co-exist with test.js.
 var pAddFiveIn  = document.getElementById('pAddFiveIn');
 var pAddFiveOut = document.getElementById('pAddFiveOut');
 

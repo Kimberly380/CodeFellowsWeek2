@@ -33,3 +33,18 @@ function sumAndMult (a, b, c) {
 }
 
 exports.sumAndMult = sumAndMult;
+
+
+
+//function for adding three items in an array. Problem Four.
+
+function sumArray(myArray) {
+
+
+  for (i=0; i<myArray.lenght; i++){
+      var sumResults = 0;
+      sumResults += myArray[i];
+      }
+  }
+
+exports.sumArray = sumArray;
