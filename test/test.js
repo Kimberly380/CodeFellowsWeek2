@@ -18,6 +18,9 @@ it('should be 28, the product of 7 and 4.', function() { assert(28 == compute.mu
 
 
 
+//Problem Three. Sum and Multiply.
+it('should be 16, 140, the sum and products of 4, 7, and 5.', function() { assert(15,140 == compute.sumAndMult(4,7,5)); });
+
 
 
 

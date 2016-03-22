@@ -17,3 +17,19 @@ function multTwo (a, b) {
 }
 
 exports.multTwo = multTwo;
+
+
+
+//function for summing and multiplying three numbers: Problem Three
+
+function sumAndMult (a, b, c) {
+  console.log( a + " and " + b + " and " + c + " sum to "+(a+b+c));
+  console.log("The numbers " + a + " and " + b + " and " + c + " have a product of " + (a*b*c));
+
+  sumAll = sumTwo(a,b) + c;
+  multAll = multTwo(a,b) *c;
+
+  return [sumTwo, multTwo];
+}
+
+exports.sumAndMult = sumAndMult;
