@@ -11,4 +11,14 @@ describe('My first test', function() {
 //Problem One
   it('should be 11, the sum of 7 and 4.', function() { assert(11 == compute.sumTwo(7,4)); });
 
-});
+
+
+//Problem Two.  Multiply.
+it('should be 28, the product of 7 and 4.', function() { assert(28 == compute.multTwo(7,4)); });
+
+
+
+
+
+
+ });
