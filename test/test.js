@@ -9,6 +9,6 @@ describe('My first test', function() {
 
 
 //Problem One
-  it('should be 11, the sum of 7 and 4.', function() { assert(4 == compute.sumTwo(0)); });
+  it('should be 11, the sum of 7 and 4.', function() { assert(11 == compute.sumTwo(7,4)); });
 
 });
